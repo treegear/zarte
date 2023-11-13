@@ -48,7 +48,7 @@
                                 <tr> 
                                     <td>{{$ss_row->ss_name}}</td>
                                     <td>{{substr($ss_row->ss_desc, 0, 20)}} ....</td>
-                                    <td><img src="{{asset('uploads/images/thumb/'.$ss_row->ss_img_1.'')}}"</td>
+                                    <td><img width="50" height="50"  src="{{asset('uploads/images/thumb/'.$ss_row->ss_img_1.'')}}"</td>
                                     @if($ss_type_val=='members')
                                     <td>{{$ss_row->ss_website}}</td>
 

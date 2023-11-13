@@ -39,7 +39,7 @@
                                     @if($ps_type_val=='slider') 
                                         <td>{{$ps_row->ps_sub_text}}</td>
 						            @endif
-                                    <td><img src="{{asset('uploads/images/thumb/'.$ps_row->ps_img_1.'')}}"></td>
+                                    <td><img width="50" height="50" src="{{asset('uploads/images/thumb/'.$ps_row->ps_img_1.'')}}"></td>
                                      
                                     <td>
                                         <a href="{{route($ps_type_val.'.edit',[base64_encode($ps_row->ps_id),base64_encode($ps_type_val)])}}" class="btn btn-success"> <i class="bi bi-card-text "></i> </a>
